@@ -1,0 +1,24 @@
+{
+  "name": "single-application",
+  "version": "1.0.0",
+  "description": "Single page application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --open --mode development"
+  },
+  "keywords": [
+    "Javascript"
+  ],
+  "author": "Jorge Mena <jormencar@yahoo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^7.0.0",
+    "html-webpack-plugin": "^5.0.0",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
